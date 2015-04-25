@@ -28,7 +28,7 @@ block content
                      div.form-group
                         input(name='choice' type='radio' value='3')
                         label {{questionSets[i].answers[3]}}
-                     p {{i}}/{{questionSets.length}}
+                     p Question {{i+1}} of {{questionSets.length}}
                  div.score(ng-show='i >= questionSets.length')
                     h2 You scored {{score}} out of {{questionSets.length}}
                     a(href='/rankings') View Your Rank
@@ -38,7 +38,7 @@ block content
 
           div.row
               div.col-sm-2.col-sm-offset-5
-                button.btn.calculate(ng-show='i  === questionSets.length-1' ng-click='calculateScore()') CALCULATE
+                button.btn.btn-warning.btn-lg.calculate(ng-show='i  === questionSets.length-1' ng-click='calculateScore()') Calculate
           div.row
               div.col-sm-4.col-sm-offset-4
                 div#error.alert.alert-danger Choose an answer!

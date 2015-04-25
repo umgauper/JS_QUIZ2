@@ -13,12 +13,12 @@ form {
   padding: 20px;
   border: 10px solid transparent;
   border-radius: 10px;
-  border-top-left-radius: 0px;
+  border-top-left-radius: 0;
   margin-bottom: 10px;
 }
 
 .form-headline {
-  background-color: #EDECD0;
+  background-color:  #728E57;
   border: 10px solid transparent;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -26,6 +26,23 @@ form {
   display: inline-block;
 }
 
+/* Home page styles */
+
+div.box h2 {
+  background-color: white;
+  width: 200px;
+  border: 10px solid transparent;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h1.welcome {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color:  #728E57;
+  text-align: center;
+  padding: 10px 0;
+}
 /* Quiz styles */
 
 div.quiz {
@@ -49,6 +66,9 @@ div.quiz {
 
 h4.question {
   height: 30px;
+  margin-left: 20px;
+  font-weight: bold;
+
 }
 
 input[type="radio"] {
@@ -86,7 +106,7 @@ div.answers input {
 }
 
 .calculate {
-  background-color: #EF5B00;
+  background-color: #EC9940 !important;
   margin-top: 10%;
 }
 
