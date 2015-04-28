@@ -1,16 +1,14 @@
 * ~~after quiz is finished, show page of rankings with other users~~
 * ~~redirect login and signup to quiz page~~
-* add error catching
-* remove error message when radio button is clilcked
-* modify/improve styles for quiz
-    -correct position of next andd prev and calculate buttons
-    -correct position of error message
-* add div w/white background and border for login & signup
-* adjust routes to redirect to quiz when user signs up or logs in
-* add home page with links to signup and login pages
-* set up as heroku app (this will probably be tricky and take awhile...)
-* add 8 questions to DB for total of 10 questions
-* restrict route to quiz to logged in users only!
+
+* add error catching for db connection errors
+* remove error message when radio button is clicked
+* fix next arrow positioning
+* make radio selected when text of answer is clicked
+* add logout route with links on all pages
+* clean-up and comment code
+* rename the app
 
 ##maybe
 * add angular controller to highlight logged-in user's rank in the table
+* add timer for questions
