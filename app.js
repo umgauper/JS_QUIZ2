@@ -9,7 +9,7 @@ var mongoose = require('mongoose');
 var configDB = require('./config/database.js');
 var mongo = require('mongoskin');
 
-var db = mongo.db(configDB.url); // so db is accessible to the quiz users ... This is awkward, change so there's only one connection to the quiz_users db?
+var db = mongo.db(configDB.url); // so db is accessible to the quiz users ..
 
 mongoose.connect(configDB.url); // for user signup and login
 
@@ -61,7 +61,7 @@ app.use('/signup', signup);
 app.use('/updateScore', updateScore);
 app.use('/rankings', rankings);
 
-//require('./app/routes.js')(app, passport); WHAT SHOulD THIS LINE BE IN my app?!!?!?!?
+// code from https://scotch.io/tutorials/easy-node-authentication-setup-and-local
 
 /// catch 404 and forwarding to error handler
 app.use(function(req, res, next) {

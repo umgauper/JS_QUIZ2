@@ -1,5 +1,3 @@
-#!/usr/bin/nodejs
-//var debug = require('debug')('my-application');
 var app = require('../app');
 
 var port = process.env.PORT || 3000;

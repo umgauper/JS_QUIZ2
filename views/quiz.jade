@@ -9,7 +9,7 @@ block content
            a(href='/logout') Logout
          div.row
             div.col-sm-1.col-sm-offset-2.col-xs-1
-               button.btn.prev(ng-class="{'vis-hidden': i === 0 || i === questionSets.length}" ng-click='prev()') <<
+               button.btn.prev(ng-class="{'vis-hidden': i === 0 || i === questionSets.length}" ng-click='prev()') <
             div.col-sm-6.col-xs-10
               div.quiz
                  h4.question(ng-show="i < questionSets.length") {{ questionSets[i].question }}
@@ -34,7 +34,7 @@ block content
                     a(href='/rankings') View Your Rank
 
              div.col-sm-1.col-xs-1
-                  button.btn.next(ng-show='i < questionSets.length-1;' ng-click='next()') >>
+                  button.btn.next(ng-show='i < questionSets.length-1;' ng-click='next()') >
 
           div.row
               div.col-sm-2.col-sm-offset-5
